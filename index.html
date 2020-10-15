@@ -1,5 +1,10 @@
 <html>
   <body>
+    <ul>
+      <li> HOME PAGE </li>
+      <li> APPS </li>
+      <li> ART </li>
+    </ul>
     <h1> Joanna's Website </h1>
     
     <center><img src="IMG_0708.jpg" width=400>
@@ -17,28 +22,47 @@
   font-family: system-ui;
   font-style: oblique;
   background: #e9eddf;
-  text-align: center;
+  text-align: center;   
        
-       
-}
-
-     a:link, a:visited {
-  background-color: #446137;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  background-color: #c4d9ba;
-  color: #446137
 }
      
 h1 {
   color: #a4ad8e;
 }
+     
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  }
+
+li {
+  float: left;
+  display: inline;
+  padding: 0px;
+  width: 100px;
+margin: 5px;
+  top: 10;
+  left: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  } 
+    
+li a:hover {
+  background-color: #a4ad8e;
+}
+
      </style>
      </body>
 </html>
